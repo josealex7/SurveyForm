@@ -1,0 +1,123 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/001/266/740/non_2x/two-people-working-on-laptops-in-an-office-free-photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.principal {
+    background-color: rgba(43, 39, 88, 0.747);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.header {
+    padding: 40px;
+}
+
+.header h1 {
+    padding: 10px;
+    color: white;
+}
+
+.header p {
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#survey-form {
+    text-align: left;
+    background-color: rgba(27, 27, 50, 0.8);
+    display: inline-flex;
+    flex-wrap: wrap;
+    max-width: 650px;
+    border-radius: 7px;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.input-text {
+    width: 98%;
+    margin: auto;
+    padding: 8px;
+    margin-top: 15px;
+    font-size: 18px;
+    border: solid 1px gray;
+    border-radius: 3px;
+    height: 28px;
+}
+
+.label-title {
+    color: white;
+    font-size: 20px;
+    width: 100%;
+}
+
+.separadores {
+    width: 100%;
+    margin: 15px;
+}
+
+.dropdown {
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 15px;
+    font-size: 18px;
+    border: solid 1px gray;
+    border-radius: 3px;
+}
+
+.boton-group {
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+}
+
+.boton-group-input {
+    margin: 25px 10px 5px;
+    transform: scale(1.5);
+}
+
+.checks {
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#cbox {
+    margin: 20px 2px 0px;
+    padding: 5px;
+    transform: scale(1.5);
+}
+
+#textarea {
+    width: 97%;
+    margin: 20px 0px 10px;
+    resize: none;
+    height: 100px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#submit {
+    width: 100%;
+    padding: 14px;
+    margin: auto;
+    background-color: #37af65;
+    border: 1px solid #28814b;
+    font-size: 20px;
+    color: white;
+}
+
+#submit:active {
+    background-color: #1f5f37;
+    border: 1px solid #173f27;
+}
